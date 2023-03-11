@@ -1,0 +1,35 @@
+(1,' select the wrongly spelt word in the following',' reminascant		',' remembrance	',' remnant	',' remittance'),
+(2,' complete the series 2,12,36,80,150,........',' 250		',' 252		',' 276		',' 300'),
+(3,' what is the GST collection in India in January 2022 ?',' Rs.0.97 lakh crore 	',' Rs. 1.21 lakh crore	',' Rs. 1.55 lakh crore	',' Rs. 2.01 lakh crore'),
+(4,' which Indian state announced the country's first medical city named "Indrayani medicity"',' Uttarakhand		',' Maharashtra		',' Haryana	',' Kerala	'),
+(5,' which of the following is not a software ?',' compiler	',' Adobe	',' Microsoft office	',' Drives'),
+(6,' Vedic City is being developed in which city ?',' Varanasi	',' Ayodhya	',' Ujjain	',' Hardwar'),
+(7,' Cyclone mandous ,a severe cyclonic storm in the bay of bengal, has affected the most________',' West bengal		',' Odisha	',' Andhra pradesh	',' Tamil Nadu'),
+(8,' which nation finished with the most number of medals in the Tokyo Olympics ?',' USA		',' China	',' Japan	',' Australia'),
+(9,' Waca Cricket ground is located in______',' Adelaide	',' Perth	',' Auckland	',' Durban'),
+(10,' How many ports and poetesses had contributed to the Sangam Literature ?',' 471		',' 473		',' 475  		',' 478'),
+(11,'Which of these is not a type of Phonetics ?',' Articulatory		',' personal	',' Acoustic	',' Auditory'),
+(12,' Find the speed of the train , if a train 142m long passes a pole in 6 seconds.',' 77.2km/hr	',' 79.6 km/hr	',' 84.9 km/hr	',' 79.2 km/hr'),
+(13,' which is the first platform to launch 'UPI LITE payments' ?',' Google pay	',' Mi pay	',' Paytm payments Bank	',' Airtel payments Bank'),
+(14,' which city is the host of the India -US Trade Policy Forum Meeting in 2023 ?',' Mumbai	',' New Delhi	',' California 	',' Washington DC'),
+(15,' which of the following is valid storage type ?',' CPU		',' Keyboard	',' Pen Drive	',' Track ball'),
+(16,' where is Kalakkad Mundanthurai Tiger Reserve is situated ?',' Tirunelveli	',' Chennai	',' Erode	',' Nilagiri'),
+(17,' The Rapid Transit System in Tamil Nadu is located in ?',' Trichy 	',' Chennai	',' Salem	',' Thanjavur'),
+(18,' FIFA is the global regulatory body of which sports',' Hockey	',' Football 	',' Cricket	',' Tennis'),
+(19,' where in Pakistan the World's highest polo ground is located ?',' Kasur	',' Attock	',' Shandur	',' Okara'),
+(20,' Tirupur kumaran died in the year ?',' 1928		',' 1932		',' 1935	 	',' 1930'),
+(21,'What is the antonyms for "CULPABLE".','Prone  ','blameless  ','careless  ','irresponsible'),
+(22,'Keeladi,which was seen in the news, is an excavation site found in which state ?','Tamil Nadu  ','Kerala  ','Punjab  ','Uttarakhand'),
+(23,' The term 'Corrupt Practice' is defined in which act in India?','Indian Penal Code         ','Representation of People's Act            ','Code of Criminal Procedure           ','Indian Evidence Act'),
+(24,'Who developed a mechanical device in the 17th century that could add, subtract, multiply, divide and find square roots?',' Napier  ','Babbage   ','Pascal         ','Leibnitz'),
+(25,' Red cross was found by','Cursetji  ','Badel Powell   ','J.H.Durant       ','Trygve Lie'),
+(26,'What is the HCF of 1095 and 1168 ?','37   ','73   ','43   ','83'),
+(27,'Who is the first Indian Women to win an Olympic Silver Medal?','Saina Nehwal    ','P.V.Sindhu    ','Rituparna Das     ','Tanvi Lad'),
+(28,'The first official handball match was played in which country?','Switzerland        ','Germany        ','Canada              ','England '),
+(29,'Who is considered to be the Father of Tamil Literature?','Sage Agastya      ','Sage Valmigi  ','Sage Vyasa        ','Saga Vashishtha'),
+(30,'Who is the father of geometry?',' Aristotle               ',' Euclid            ',' Pythagoras                  ',' Kepler');
+
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMFETE 2023</title>
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+    *{padding: 0;margin: 0;}
+    body{font-family: 'Tourney';background-image: url('../images/frame.jpg');background-repeat: no-repeat;background-attachment: fixed;background-position: center center;background-size:cover;}
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;box-sizing: border-box;
+      padding: 1px 15%;
+    }
+    h2{text-align:center;color:white;margin-bottom:20px;font-weight: normal;}
+    label{font-size: 1.1rem;font-weight: lighter;color:white;
+      letter-spacing: 3px;
+    }
+input {
+      width: 100%;font-size: 1.2rem;
+      padding: 12px 20px;
+      margin: 12px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: rgb(0,0,0,0);
+      color:white;
+      
+}
+h2{
+  font-family: inherit;
+}
+    input:focus{outline:3px solid rgb(103,218,253);background-color: rgb(0,0,0,0);}
+
+    .close{color:red;font-size: 2.5rem;float:right;font-weight: bold;}
+    .close:hover{color:rgb(103,218,253);}
+
+    form{box-sizing: border-box; padding:25px;
+    margin-top:15%;font-family: 'Poppins', sans-serif;}
+    .btn-juicy {
+	box-shadow: 5px 10px#a117a1;
+	transition: 0.2s;
+}
+.btn-juicy:hover:active {
+	transition: 0.1s;
+	box-shadow: 1px 2px#a117a1;
+	transform: translate(5px, 10px);
+}
+.btn-juicy:hover {
+	box-shadow: 6px 12px#a117a1;
+	transform: translate(-1px, -2px);
+}
+.btn {
+	color: white;letter-spacing: 2px;
+	border-radius: 20px;
+  border-color: aliceblue;
+	background-color: #f942f8;
+	text-decoration: none;
+  font-family: inherit;
+  font-weight: bolder;
+	padding: 10px;
+	margin: 15px;
+	user-select: none;
+	-webkit-user-drag: none;
+  width: 92%;
+  font-size: 17px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <form action="../question_page/main1.php" method="get">
+      <span class="close" onclick="window.history.back();">&times;</span>
+      <h2>Login</h2>
+
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="college">College Name:</label><br>
+      <input type="text" id="college" name="college" required>
+
+      <label for="email">Email ID:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      
+      <button class="btn btn-juicy">Start</button>
+    </form>
+  </div>
+</body>
+</html>
+
+

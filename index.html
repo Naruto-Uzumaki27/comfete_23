@@ -1,0 +1,153 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMFETE 2023</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="./images/x-icon">
+    <style>
+            @font-face {
+            font-family: "Bungee Shade";
+            src: url("fonts/Merienda-VariableFont_wght.ttf");
+            }
+            @font-face {
+            font-family: "Righteous";
+            src: url("fonts/Righteous-Regular.ttf");
+            }
+
+        *{padding: 0;margin: 0;}
+        body{
+          font-family: 'Bungee Shade';
+        background-image: url('images/final.jpg');background-repeat: no-repeat;user-select: none;background-position: center center;background-attachment: fixed;background-size: cover;cursor: url('/images/mous3.png'),auto;}
+        .header {
+          text-align: center;
+
+          padding: 10px;
+          margin-top:25%;
+          color:rgb(255, 255, 255);
+        }
+        .adbut{padding:20px;}
+        .header h1 {
+          FONT-WEIGHT:Bold;
+          font-size:55px;letter-spacing: 5px;
+          margin-bottom: 15px;
+        }
+        .header p {
+          font-family:Righteous;
+          letter-spacing : 2px;
+          font-size:20px;margin:0.5% auto;
+        }
+        .btn-juicy {
+        box-shadow: 5px 5px #ffffff;
+        transition: 0.2s;
+       
+        
+}
+.btn-juicy:hover:active {
+	transition: 0.1s;
+	box-shadow: 1px 2px#3715d1;
+	transform: translate(5px, 10px);
+}
+.btn-juicy:hover {
+  border: solid 1.5px;
+  border-color: #d847b6;
+  color:#fc01c1;
+  background-color: #ffffff;
+	box-shadow: 6px 6px#d847b6;
+	transform: translate(-1px, -2px);
+}
+.btn {
+
+  font-family:Righteous;
+  margin-top: 5%;
+  line-height: 10px;
+  border-radius: 10px;
+  border: solid 1.5px;
+  border-color: white ;
+  background-color: #ff00b8;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  user-select: none;
+  -webkit-user-drag: none;
+  font-size: 17px;
+}
+body {
+   opacity: 0;
+   transition: opacity .5s;
+}
+
+.adbut{
+  font-family:Bungee Shade;
+  background-color: rgb(0 0 0 / 0%);
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: none;
+}
+.modal{
+    width:500px;height:200px;background-color: #010409;
+    position:absolute;top:200px;left:280px;z-index: 1;display:none;
+}
+.modal .close{
+    color:red;font-size: 3rem;font-weight: bold;
+    float:right;padding:3px 15px;
+}
+.modal p{margin:60px 70px 10px;font-size: 1.2rem;color: white;}
+.modal input{margin:5px 60px;padding:10px 20px;background-color: #0d1117;color: white;}
+.modal .button{padding:10px 20px;margin:30px auto;color:white;
+  background-color:#238636;border:none;border-radius: 5px;}
+.modal .button:hover{
+    background-color:rgb(6, 67, 129) ;
+    box-shadow: 0px 0px 10px rgb(56, 89, 233);}
+      </style>
+
+</head>
+<body>
+    <body>
+      <button onclick="document.getElementById('modal').style.display='block';" class="adbut">Admin</button>
+      <div class="modal" id="modal">
+        <span class="close" onclick="document.getElementById('modal').style.display='none'">&times;</span>
+          <p>Enter password:</p>
+          <input type="password" name="pass" id="pass">
+          <button class="button" onclick=" adcheck()">Submit</button>
+      </div>
+        <div class="header">
+          <h1>COMFETE 2023</h1>
+          <p>The Inter-College Quiz Competition</p>
+          <p>Organized by SAINT</p>
+          <button class="btn btn-juicy" onclick="transitionToPage('menu.html')">Enter</button>
+        </div>
+        
+      </body>
+
+      <script>
+      window.transitionToPage = function(h) {
+        let b=document.querySelector('body');
+        b.style.opacity = 0
+        setTimeout(function() { 
+            window.location.href = h;
+            b.style.opacity=1
+        }, 500)
+    }
+    
+    document.addEventListener('DOMContentLoaded', function(event) {
+        document.querySelector('body').style.opacity = 1
+    })
+    
+    function adcheck(){
+      a=pass.value;
+      if (a=='ssasc54321'){
+        window.location.href='./admin.php'
+      }
+      else if(a!=null){
+        alert('Wrong Passcode')
+      }
+      pass.value="";
+      modal.style.display='none';
+    }
+      </script>
+</body>
+</html>
+
